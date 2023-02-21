@@ -46,7 +46,7 @@ nav ul i {
   margin-right: 20px;
   font-size: 30px;
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   nav ul {
     display: block;
   }
@@ -71,12 +71,11 @@ nav ul li a {
 }
 nav .travelFly {
   margin-right: 390px;
-  border: 1px solid black;
   height: 36px;
   padding: 15px 0px 0px 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   nav .travelFly {
     margin-right: 155px;
     margin-left: 10px;
@@ -88,7 +87,7 @@ nav a {
   color: black;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   nav a {
     display: none;
   }
@@ -99,7 +98,7 @@ nav h2 {
   color: #79ADDC;
   font-size: 30px;
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   nav h2 {
     display: none;
   }
@@ -143,7 +142,7 @@ nav h2 {
   margin-right: 20px;
   font-size: 30px;
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   .navigation nav ul {
     display: block;
   }
@@ -168,12 +167,11 @@ nav h2 {
 }
 .navigation nav .travelFly {
   margin-right: 390px;
-  border: 1px solid white;
   height: 36px;
-  padding: 15px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   .navigation nav .travelFly {
     margin-right: 155px;
     margin-left: 10px;
@@ -185,7 +183,7 @@ nav h2 {
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
   .navigation nav a {
     display: none;
   }
@@ -240,7 +238,7 @@ nav h2 {
   margin: 0 auto;
   margin-top: -43px;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 868px) {
   .packageOptions {
     flex-direction: column;
   }
@@ -283,9 +281,9 @@ nav h2 {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 868px) {
   .packageOptions .isrealPackage {
-    width: 100%;
+    width: 95%;
   }
 }
 .packageOptions .usPackage {
@@ -296,9 +294,9 @@ nav h2 {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 868px) {
   .packageOptions .usPackage {
-    width: 100%;
+    width: 95%;
   }
 }
 .packageOptions .austrailiaPackage {
@@ -309,9 +307,9 @@ nav h2 {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 868px) {
   .packageOptions .austrailiaPackage {
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -342,9 +340,9 @@ nav h2 {
   margin-bottom: 100px;
   cursor: pointer;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm button {
-    width: 360px;
+    width: 80%;
   }
 }
 .bookingForm h1 {
@@ -353,7 +351,7 @@ nav h2 {
   font-family: "proxima-nova-extra-condensed", sans-serif;
   font-style: italic;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm h1 {
     margin-left: 21px;
   }
@@ -362,7 +360,7 @@ nav h2 {
   display: flex;
   margin: 0 auto;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperOne {
     flex-wrap: wrap;
     flex-direction: column;
@@ -376,9 +374,9 @@ nav h2 {
   width: 344px;
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperOne .inputOne .shortInput {
-    width: 360px;
+    width: 80%;
     margin-left: 21px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -401,15 +399,15 @@ nav h2 {
   align-items: center;
   justify-content: space-evenly;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperOne .inputTwo .longInput {
-    width: 360px;
     margin-left: 21px;
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    width: 80%;
   }
 }
 .bookingForm .inputWrapperTwo {
@@ -417,9 +415,9 @@ nav h2 {
   align-items: center;
   justify-content: space-between;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperTwo {
-    width: 360px;
+    width: 80%;
     margin-left: 21px;
     margin: 0 auto;
   }
@@ -428,9 +426,9 @@ nav h2 {
   width: 698px;
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperTwo input {
-    width: 250px;
+    width: 80%;
   }
 }
 .bookingForm .inputWrapperThree {
@@ -438,31 +436,33 @@ nav h2 {
   align-items: center;
   justify-content: space-between;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperThree {
     width: 360px;
     margin-left: 21px;
     margin: 0 auto;
+    width: 80%;
   }
 }
 .bookingForm .inputWrapperThree input {
   width: 698px;
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperThree input {
-    width: 250px;
+    width: 80%;
   }
 }
 .bookingForm .inputWrapperFour {
   max-width: 818px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperFour {
-    width: 360px;
+    width: 80%;
     flex-wrap: wrap;
     flex-direction: column;
     display: block;
@@ -474,30 +474,23 @@ nav h2 {
   align-items: center;
   justify-content: space-between;
 }
-@media only screen and (max-width: 818px) {
-  .bookingForm .inputWrapperFour .insideWrapper {
-    width: 370px;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-}
-.bookingForm .inputWrapperFour .insideWrapper p {
-  margin-left: 65px;
-}
-@media only screen and (max-width: 818px) {
-  .bookingForm .inputWrapperFour .insideWrapper p {
-    margin-left: 10px;
-  }
-}
 .bookingForm .inputWrapperFour .insideWrapper .inputIcon {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-left: 80px;
+  margin-right: 80px;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperFour .insideWrapper .inputIcon {
-    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.bookingForm .inputWrapperFour .insideWrapper .inputIcon p {
+  margin-right: 70.25px;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperFour .insideWrapper .inputIcon p {
+    margin-right: 10px;
   }
 }
 .bookingForm .inputWrapperFour .insideWrapper .inputIcon .actualTriangle {
@@ -508,17 +501,27 @@ nav h2 {
   border-right: 10px solid transparent;
   border-top: 12px solid #000000;
   position: absolute;
-  transform: translate(72px, 22px);
+  transform: translate(90px, -8px);
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperFour .insideWrapper .inputIcon .actualTriangle {
     margin: 0;
-    transform: translate(54px, 22px);
+    transform: translate(69px, -8px);
+    transition: 0.5s;
   }
 }
-@media only screen and (max-width: 818px) {
-  .bookingForm .inputWrapperFour .insideWrapper {
-    width: 360px;
+@media only screen and (max-width: 670px) {
+  .bookingForm .inputWrapperFour .insideWrapper .inputIcon .actualTriangle {
+    margin: 0;
+    transform: translate(53px, -8px);
+    transition: 0.5s;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .bookingForm .inputWrapperFour .insideWrapper .inputIcon .actualTriangle {
+    margin: 0;
+    transform: translate(43px, -8px);
+    transition: 0.5s;
   }
 }
 .bookingForm .inputWrapperFour .insideWrapper input {
@@ -526,9 +529,9 @@ nav h2 {
   margin-bottom: 20px;
   z-index: -1;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .inputWrapperFour .insideWrapper input {
-    width: 260px;
+    width: 80%;
   }
 }
 .bookingForm .messageInputWrapper {
@@ -544,9 +547,9 @@ nav h2 {
   padding: 5px;
   resize: none;
 }
-@media only screen and (max-width: 818px) {
+@media only screen and (max-width: 868px) {
   .bookingForm .messageInputWrapper textarea {
-    width: 360px;
+    width: 80%;
   }
 }
 
@@ -570,12 +573,9 @@ footer .footerWrapper {
   }
 }
 footer .footerWrapper .travelFly {
-  border: 1px solid white;
   font-size: 15px;
-  color: #ffffff;
   text-decoration: none;
   height: 36px;
-  padding: 15px 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 @media only screen and (max-width: 950px) {

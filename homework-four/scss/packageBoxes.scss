@@ -9,7 +9,7 @@
     margin-top: -43px;
     
 
-    @media only screen and (max-width: 720px){
+    @media only screen and (max-width: 868px){
         // flex-wrap: wrap;
         flex-direction: column;
         // align-items: center;
@@ -59,9 +59,9 @@
         background-repeat: no-repeat;
         background-position: center;
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 868px){
             // margin-bottom: 20px;
-            width: 100%;
+            width: 95%;
         }
         
     }
@@ -74,9 +74,9 @@
         background-position: center;
        
         // margin-left: 55px;
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 868px){
             // margin-bottom: 20px;
-            width: 100%;
+            width: 95%;
         }
     }
     .austrailiaPackage{
@@ -88,8 +88,8 @@
         background-position: center;
        
         // margin-left: 55px;
-        @media only screen and (max-width: 720px){
-            width: 100%;
+        @media only screen and (max-width: 868px){
+            width: 95%;
         }
     }
 }
