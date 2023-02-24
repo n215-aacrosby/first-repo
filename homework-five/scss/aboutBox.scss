@@ -1,0 +1,74 @@
+.aboutWrapper{
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    @media only screen and (max-width: 818px){
+        padding: 20px;
+    }
+
+    h1{
+
+        font-family: $proxiNova;
+        font-size: 60px;
+        font-weight: 400;
+        letter-spacing: 8px;
+
+    }
+
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        font-weight: 100;
+    }
+}
+
+.clientQuotes{
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 107px;
+    margin-bottom: 179px;
+    
+    @media only screen and (max-width: 818px){
+        padding: 20px;
+    }
+
+    h2{
+        font-family: $proxiNova;
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+
+    .clients{
+        display: flex;
+        margin-top: 36px;
+        
+        img{
+            max-width: 260px;
+            height: 100%;
+        }
+
+        p{
+            max-width: 385px;
+            // height: 102px;
+            text-align: left;
+            padding: 0px 21px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            font-size: 16px;
+        }
+
+        h3{
+            font-family: $proxiNova;
+            font-size: 20px;
+            font-weight: normal;
+            color: #79addc;
+            letter-spacing: 2px;
+            float: right;
+            margin-top: 27px;
+            
+        }
+    }
+}
