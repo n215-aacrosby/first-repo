@@ -10,8 +10,12 @@
     display: flex;
     margin-top: 50px;
 
-    @media only screen and (max-width: 720px){
-        margin-top: 0;
+    @media only screen and (max-width: 1200px){
+        width: 90%;
+    }
+
+    @media only screen and (max-width: 500px){
+        // height: 170px;
     }
 
     h1{
@@ -41,10 +45,15 @@
     margin: 0 auto;
     margin-bottom: 100px;
     
-    @media only screen and (max-width: 720px){
-        margin-bottom: 0;
-        margin-top: 20px;
+    @media only screen and (max-width: 1200px){
+        // margin-bottom: 0;
+        margin-top: 55px;
     }
+
+    // @media ((max-width: 1200px) and (min-width: 1000px)) {
+    //     display: grid;
+    //     grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+    // }
     
 
   
@@ -55,7 +64,7 @@
         justify-content: space-evenly;
         margin-top: 55px;
 
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             flex-wrap: wrap;
             flex-direction: column;
             align-items: center;
@@ -108,7 +117,7 @@
         background-position: center;
         
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             margin-bottom: 20px;
             width: 90%;
         }
@@ -123,7 +132,7 @@
         background-position: center;
         
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             margin-bottom: 20px;
             width: 90%;
         }
@@ -138,7 +147,7 @@
         background-position: center;
         
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             margin-bottom: 20px;
             width: 90%;
         }
@@ -153,7 +162,7 @@
         background-position: center;
         
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             margin-bottom: 20px;
             width: 90%;
         }
@@ -168,7 +177,7 @@
         background-position: center;
         
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             margin-bottom: 20px;
             width: 90%;
         }
@@ -183,7 +192,7 @@
         background-position: center;
         
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             margin-bottom: 20px;
             width: 90%;
         }
@@ -198,7 +207,7 @@
         background-position: center;
         
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             margin-bottom: 20px;
             width: 90%;
         }
@@ -213,7 +222,7 @@
         background-position: center;
         
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             margin-bottom: 20px;
             width: 90%;
         }
@@ -228,7 +237,7 @@
         background-position: center;
         
        
-        @media only screen and (max-width: 720px){
+        @media only screen and (max-width: 1200px){
             margin-bottom: 20px;
             width: 90%;
         }

@@ -745,9 +745,9 @@ footer .footerWrapper .icons i {
   display: flex;
   margin-top: 50px;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .toursBanner {
-    margin-top: 0;
+    width: 90%;
   }
 }
 .toursBanner h1 {
@@ -769,10 +769,9 @@ footer .footerWrapper .icons i {
   margin: 0 auto;
   margin-bottom: 100px;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer {
-    margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 55px;
   }
 }
 .tourContainer .tourRow {
@@ -781,7 +780,7 @@ footer .footerWrapper .icons i {
   justify-content: space-evenly;
   margin-top: 55px;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow {
     flex-wrap: wrap;
     flex-direction: column;
@@ -827,7 +826,7 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow .isrealPackage {
     margin-bottom: 20px;
     width: 90%;
@@ -841,7 +840,7 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow .usaPackage {
     margin-bottom: 20px;
     width: 90%;
@@ -855,7 +854,7 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow .australiaPackage {
     margin-bottom: 20px;
     width: 90%;
@@ -869,7 +868,7 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow .newZealandPackage {
     margin-bottom: 20px;
     width: 90%;
@@ -883,7 +882,7 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow .francePackage {
     margin-bottom: 20px;
     width: 90%;
@@ -897,7 +896,7 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow .egyptPackage {
     margin-bottom: 20px;
     width: 90%;
@@ -911,7 +910,7 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow .japanPackage {
     margin-bottom: 20px;
     width: 90%;
@@ -925,7 +924,7 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow .canadaPackage {
     margin-bottom: 20px;
     width: 90%;
@@ -939,7 +938,7 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1200px) {
   .tourContainer .tourRow .uaePackage {
     margin-bottom: 20px;
     width: 90%;
@@ -954,6 +953,13 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerOne {
+    width: 95%;
+    margin-bottom: 60px;
+  }
 }
 .tourPackageBannerOne h1 {
   font-size: 80px;
@@ -1000,6 +1006,13 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerTwo {
+    width: 95%;
+    margin-bottom: 60px;
+  }
 }
 .tourPackageBannerTwo h1 {
   font-size: 80px;
@@ -1046,6 +1059,13 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerThree {
+    width: 95%;
+    margin-bottom: 60px;
+  }
 }
 .tourPackageBannerThree h1 {
   font-size: 80px;
@@ -1092,6 +1112,13 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerFour {
+    width: 95%;
+    margin-bottom: 60px;
+  }
 }
 .tourPackageBannerFour h1 {
   font-size: 80px;
@@ -1138,6 +1165,13 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerFive {
+    width: 95%;
+    margin-bottom: 60px;
+  }
 }
 .tourPackageBannerFive h1 {
   font-size: 80px;
@@ -1184,6 +1218,13 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerSix {
+    width: 95%;
+    margin-bottom: 60px;
+  }
 }
 .tourPackageBannerSix h1 {
   font-size: 80px;
@@ -1230,6 +1271,13 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerSeven {
+    width: 95%;
+    margin-bottom: 60px;
+  }
 }
 .tourPackageBannerSeven h1 {
   font-size: 80px;
@@ -1276,6 +1324,13 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerEight {
+    width: 95%;
+    margin-bottom: 60px;
+  }
 }
 .tourPackageBannerEight h1 {
   font-size: 80px;
@@ -1322,6 +1377,13 @@ footer .footerWrapper .icons i {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerNine {
+    width: 95%;
+    margin-bottom: 60px;
+  }
 }
 .tourPackageBannerNine h1 {
   font-size: 80px;
