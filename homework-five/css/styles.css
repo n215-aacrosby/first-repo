@@ -595,11 +595,6 @@ footer .footerWrapper {
     margin-left: 21px;
   }
 }
-@media only screen and (max-width: 500px) {
-  footer .footerWrapper .travelFly {
-    margin-left: 26px;
-  }
-}
 footer .footerWrapper .copyright {
   color: #ffffff;
   font-size: 12px;
@@ -609,8 +604,7 @@ footer .footerWrapper .copyright {
 @media only screen and (max-width: 500px) {
   footer .footerWrapper .copyright {
     font-size: 8px;
-    margin: 0 auto;
-    margin-bottom: -70px;
+    margin: auto -70px 10px;
   }
 }
 footer .footerWrapper .icons {
@@ -622,8 +616,8 @@ footer .footerWrapper .icons i {
 }
 @media only screen and (max-width: 500px) {
   footer .footerWrapper .icons i {
-    font-size: 30px;
-    margin-right: 14px;
+    font-size: 40px;
+    margin-left: 10px;
   }
 }
 @media only screen and (max-width: 950px) {
@@ -633,11 +627,9 @@ footer .footerWrapper .icons i {
 }
 @media only screen and (max-width: 500px) {
   footer .footerWrapper .icons {
-    flex-wrap: wrap;
-    flex-direction: column;
     display: flex;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 0;
   }
 }
 
