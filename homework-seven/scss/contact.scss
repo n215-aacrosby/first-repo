@@ -1,0 +1,72 @@
+.contactContainer{
+    width: 980px;
+    margin: 0 auto;
+
+    h1{
+        font-size: 30px;
+        font-family: $proxiNova;
+        font-style: italic;
+        font-weight: 100;
+        margin-bottom: 60px;
+        margin-top: 64.5px;
+
+        span{
+            border-bottom: 1px solid black;
+        }
+    }
+
+    .contactContent{
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        
+        .contentMap{
+
+            img{
+                max-width: 400px;
+                height: 442px;
+                margin-bottom: 34px;
+            }
+
+            p{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 100;
+                font-size: 18px;
+                margin-bottom: 100px;
+                line-height: 30px;
+            }
+        }
+
+        .contactForm{
+            display: flex;
+            flex-direction: column;
+
+            input{
+                width: 529px;
+                height: 60px;
+                background-color: #F5F5F5;
+                color: black;
+                border: none;
+                padding: 20px;
+                margin-bottom: 21px;
+            }
+
+            .messageInput{
+                height: 199px;
+                text-align: justify;
+            }
+
+            button{
+                width: 167px;
+                height: 60px;
+                background-color: #79ADDC;
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 100;
+                font-size: 16px;
+                text-align: center;
+                border: none;
+            }
+        }
+    }
+}
