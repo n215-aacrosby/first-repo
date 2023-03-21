@@ -1,0 +1,75 @@
+.specialOffersHeader{
+    margin-top: 65px;
+    margin-bottom: 45px;
+
+    h1{
+        font-size: 30px;
+        font-family: $proxiNova;
+        font-weight: 400;
+        letter-spacing: 8px;
+
+        span{
+            border-bottom: 2px solid black;
+        }
+    }
+    @media only screen and (max-width: 1330px){
+        padding: 20px;
+    }
+}
+
+
+
+.offerWrapper{
+    display: flex;
+    margin-bottom: 60px;
+    @media only screen and (max-width: 1330px){
+        padding: 20px;
+    }
+
+    .offerImage{
+        img{
+            max-width: 199px;
+            height: 287px;
+        }
+    }
+
+.offerInfo{
+    max-width: 335px;
+    margin-left: 20px;
+
+    h1{
+        font-size: 30px;
+        font-family: $proxiNova;
+        font-weight: 400;
+        letter-spacing: 8px;
+
+        span{
+            border-bottom: 2px solid black;
+        }
+    }
+
+    p{
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 29px;
+        margin-bottom: 52px;
+        font-weight: 100;
+        line-height: 1.62;
+    }
+
+    a{
+        color: white;
+        background-color: #79ADDC;
+        text-align: center;
+        padding: 15px 40px;
+        border-radius: 38px;
+        text-decoration: none;
+        // display: block;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        
+    }
+}
+}

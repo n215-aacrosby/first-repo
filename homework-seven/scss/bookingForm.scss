@@ -1,0 +1,337 @@
+.bookingForm{
+    max-width: 818px;
+    margin: 0 auto;
+
+    p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    input{
+        height: 58px;
+        border: 1px solid #79ADDC;
+        padding: 5px;
+    }
+    
+    button{
+            width: 813px;
+            height: 60px;
+            border-radius: 38px;
+            background-color: #79ADDC;
+            color: #ffffff;
+            font-size: 15px;
+            border: none;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 100px;
+            cursor: pointer; 
+
+            @media only screen and (max-width: 868px){
+                // width: 453px;
+                // width: 360px;
+                width: 80%;
+                
+            }
+    }
+
+    h1{
+        font-size: 60px;
+        margin: 50px 0px 32px 0px;
+        font-family: $proxiNova;
+        font-style: italic;
+        
+        @media only screen and (max-width: 868px){
+            margin-left: 21px;
+        }
+
+    }
+
+    .inputWrapperOne{
+        display: flex;
+        margin: 0 auto;
+
+
+        // @media only screen and (max-width: 818px){
+
+        // }
+
+        @media only screen and (max-width: 868px) {
+            flex-wrap: wrap;
+            flex-direction: column;
+            display: block;
+        }
+
+        
+        .inputOne{
+            
+            //left inputs
+
+            margin: 0 auto;
+            
+            
+            .shortInput{
+                width: 344px;
+                margin-bottom: 20px;
+                
+
+                // @media only screen and (max-width: 818px){
+                //     width: 380px;
+                //     margin-left: 21px;
+                // }
+
+                @media only screen and (max-width: 868px){
+                    // width: 453px;
+                    // width: 360px;
+                    width: 80%;
+                    margin-left: 21px;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    
+                    
+                }
+
+            }
+
+        }
+        .inputTwo{
+            margin: 0 auto;
+            display: block;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            //right inputs
+
+            .longInput{
+                width: 453px;
+                margin-bottom: 20px;     
+                margin-left: 21px;  
+                
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+                @media only screen and (max-width: 868px){
+                    // width: 453px;
+                    // width: 360px;
+                    margin-left: 21px;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    width: 80%;
+                    
+                    
+                }
+    
+            }
+        }
+    }
+
+    .inputWrapperTwo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media only screen and (max-width: 868px){
+            // width: 453px;
+            // width: 360px;
+            width: 80%;
+            margin-left: 21px;
+            margin: 0 auto;
+        }
+
+        //check-in
+        
+        input{
+            width: 698px;
+            margin-bottom: 20px;
+
+            // @media only screen and (max-width: 818px){
+            //     width: 580px;
+            // }
+
+            @media only screen and (max-width: 868px){
+                // width: 370px;
+                // width: 250px;
+                width: 80%;
+            }
+            
+        }
+    }
+
+    .inputWrapperThree{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media only screen and (max-width: 868px){
+            // width: 453px;
+            width: 360px;
+            margin-left: 21px;
+            margin: 0 auto;
+            width: 80%;
+        }
+        
+        //check-out
+        
+
+        input{
+            width: 698px;
+            margin-bottom: 20px;
+
+            @media only screen and (max-width: 868px){
+                // width: 370px;
+                // width: 250px;
+                width: 80%;
+            }
+        }
+    }
+    .inputWrapperFour{
+        max-width: 818px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        @media only screen and (max-width: 868px){
+            // width: 453px;
+            // width: 360px;
+            width: 80%;
+            flex-wrap: wrap;
+            flex-direction: column;
+            display: block;
+        }
+
+
+        .insideWrapper{
+            max-width: 698px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            // margin: 0 auto;
+
+            @media only screen and (max-width: 868px){
+                // width: 370px;
+                // display: block;
+                // flex-wrap: wrap;
+                // flex-direction: column;
+                
+            }
+
+
+           
+            
+
+        .inputIcon {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            margin-right: 80px;
+
+            @media only screen and (max-width: 868px){
+                margin-right: 10px;
+                
+            }
+
+            p{
+                margin-right: 70.25px;
+
+                @media only screen and (max-width: 868px){
+                    margin-right: 10px;
+                }
+            }
+
+            .actualTriangle{
+                width: 0;
+                height: 0;
+                margin: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 12px solid #000000;
+                position: absolute;
+                transform: translate(90px, -8px);
+
+                @media only screen and (max-width: 868px){
+                    margin: 0;
+                    transform: translate(69px, -8px);
+                    transition: .5s;
+                    // display: none;
+                }
+                @media only screen and (max-width: 670px){
+                    margin: 0;
+                    transform: translate(53px, -8px);
+                    transition: .5s;
+                    // display: none;
+                }
+                @media only screen and (max-width: 550px){
+                    margin: 0;
+                    transform: translate(43px, -8px);
+                    transition: .5s;
+                    // display: none;
+                }
+            }
+            
+
+            
+
+        }
+
+
+        @media only screen and (max-width: 868px){
+            // width: 453px;
+            // width: 360px;
+            // width: 260px;
+            // margin-left: 21px;
+            // margin: 0 auto;
+        }
+
+        //number boxes
+        
+        input{
+            width: 103px;
+            margin-bottom: 20px;
+            z-index: -1;
+
+
+            @media only screen and (max-width: 868px){
+                // width: 260px;
+                width: 80%;
+            }
+        }
+    }
+    }
+    .messageInputWrapper{
+
+        //message input
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        
+
+        textarea{
+            width: 818px;
+            height: 192px;
+            margin-bottom: 37px;
+            border: 1px solid #79ADDC;
+            padding: 5px;
+            resize: none;
+            
+
+            @media only screen and (max-width: 868px){
+                // width: 453px;
+                // width: 360px;
+                width: 80%;
+                
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,895 @@
+.tourPackageBannerOne{
+    max-width: 980px;
+    height: 413px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/tour/tour-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    @media (max-width: 1025px){
+        width: 95%;
+        margin-bottom: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        
+        @media only screen and (max-width: 545px){
+            font-size: 60px;
+        }
+        @media only screen and (max-width: 420px){
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: right;
+        margin-top: 250px;
+
+        @media only screen and (max-width: 545px){
+            margin-top: 280px;
+        }
+        @media only screen and (max-width: 420px){
+            margin-top: 310px;
+        }
+    }
+
+}
+.tourPackageBannerTwo{
+    max-width: 980px;
+    height: 413px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/tour/tour-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    @media (max-width: 1025px){
+        width: 95%;
+        margin-bottom: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        
+        @media only screen and (max-width: 545px){
+            font-size: 60px;
+        }
+        @media only screen and (max-width: 420px){
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: right;
+        margin-top: 250px;
+
+        @media only screen and (max-width: 545px){
+            margin-top: 280px;
+        }
+        @media only screen and (max-width: 420px){
+            margin-top: 310px;
+        }
+    }
+
+}
+.tourPackageBannerThree{
+    max-width: 980px;
+    height: 413px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/tour/tour-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    @media (max-width: 1025px){
+        width: 95%;
+        margin-bottom: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        
+        @media only screen and (max-width: 545px){
+            font-size: 60px;
+        }
+        @media only screen and (max-width: 420px){
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: right;
+        margin-top: 250px;
+
+        @media only screen and (max-width: 545px){
+            margin-top: 280px;
+        }
+        @media only screen and (max-width: 420px){
+            margin-top: 310px;
+        }
+    }
+
+}
+.tourPackageBannerFour{
+    max-width: 980px;
+    height: 413px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/tour/tour-04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    @media (max-width: 1025px){
+        width: 95%;
+        margin-bottom: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        
+        @media only screen and (max-width: 545px){
+            font-size: 60px;
+        }
+        @media only screen and (max-width: 420px){
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: right;
+        margin-top: 250px;
+
+        @media only screen and (max-width: 545px){
+            margin-top: 280px;
+        }
+        @media only screen and (max-width: 420px){
+            margin-top: 310px;
+        }
+    }
+
+}
+.tourPackageBannerFive{
+    max-width: 980px;
+    height: 413px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/tour/tour-05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    @media (max-width: 1025px){
+        width: 95%;
+        margin-bottom: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        
+        @media only screen and (max-width: 545px){
+            font-size: 60px;
+        }
+        @media only screen and (max-width: 420px){
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: right;
+        margin-top: 250px;
+
+        @media only screen and (max-width: 545px){
+            margin-top: 280px;
+        }
+        @media only screen and (max-width: 420px){
+            margin-top: 310px;
+        }
+    }
+
+}
+.tourPackageBannerSix{
+    max-width: 980px;
+    height: 413px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/tour/tour-06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    @media (max-width: 1025px){
+        width: 95%;
+        margin-bottom: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        
+        @media only screen and (max-width: 545px){
+            font-size: 60px;
+        }
+        @media only screen and (max-width: 420px){
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: right;
+        margin-top: 250px;
+
+        @media only screen and (max-width: 545px){
+            margin-top: 280px;
+        }
+        @media only screen and (max-width: 420px){
+            margin-top: 310px;
+        }
+    }
+
+}
+.tourPackageBannerSeven{
+    max-width: 980px;
+    height: 413px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/tour/tour-07.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    @media (max-width: 1025px){
+        width: 95%;
+        margin-bottom: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        
+        @media only screen and (max-width: 545px){
+            font-size: 60px;
+        }
+        @media only screen and (max-width: 420px){
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: right;
+        margin-top: 250px;
+
+        @media only screen and (max-width: 545px){
+            margin-top: 280px;
+        }
+        @media only screen and (max-width: 420px){
+            margin-top: 310px;
+        }
+    }
+
+}
+.tourPackageBannerEight{
+    max-width: 980px;
+    height: 413px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/tour/tour-08.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    @media (max-width: 1025px){
+        width: 95%;
+        margin-bottom: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        
+        @media only screen and (max-width: 545px){
+            font-size: 60px;
+        }
+        @media only screen and (max-width: 420px){
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: right;
+        margin-top: 250px;
+
+        @media only screen and (max-width: 545px){
+            margin-top: 280px;
+        }
+        @media only screen and (max-width: 420px){
+            margin-top: 310px;
+        }
+    }
+
+}
+.tourPackageBannerNine{
+    max-width: 980px;
+    height: 413px;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(../images/tour/tour-09.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    @media (max-width: 1025px){
+        width: 95%;
+        margin-bottom: 60px;
+    }
+
+    h1{
+        font-size: 80px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-left: 30px;
+        
+        @media only screen and (max-width: 545px){
+            font-size: 60px;
+        }
+        @media only screen and (max-width: 420px){
+            font-size: 40px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        font-family: $proxiNova;
+        color: white;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: right;
+        margin-top: 250px;
+
+        @media only screen and (max-width: 545px){
+            margin-top: 280px;
+        }
+        @media only screen and (max-width: 420px){
+            margin-top: 310px;
+        }
+    }
+
+}
+
+.photoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 29px;
+
+    @media only screen and (max-width: 1025px){
+        // flex-wrap: wrap;
+        flex-direction: column;
+        // align-items: center;
+    }
+    
+    .photoOne{
+        background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwo{
+        background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoThree{
+        background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoFour{
+        background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoFive{
+        background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoSix{
+        background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoSeven{
+        background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoEight{
+        background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoNine{
+        background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTen{
+        background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoEleven{
+        background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwelve{
+        background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoThirteen{
+        background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoFourteen{
+        background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoFifteen{
+        background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoSixteen{
+        background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoSeventeen{
+        background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoEighteen{
+        background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoNineteen{
+        background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwenty{
+        background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwentyOne{
+        background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwentyTwo{
+        background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwentyThree{
+        background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwentyFour{
+        background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwentyFive{
+        background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwentySix{
+        background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+    .photoTwentySeven{
+        background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+        width: 298px;
+        height: 347px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        // margin-left: 55px;
+        @media only screen and (max-width: 1025px){
+            margin-bottom: 20px;
+            width: 95%;
+            height: 450px;
+        }
+    }
+}
+
+.dayContainer{
+    max-width: 980px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 89px;
+
+    @media only screen and (max-width: 1025px){
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 60px;
+        font-family: $proxiNova;
+        font-weight: 400;
+        letter-spacing: 8px;
+
+        span{
+            border-bottom: 2px solid black;
+        }
+    }
+    p{
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 39px;
+        font-weight: 400;
+    }
+}
+
+.bookNow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+
+    a{
+        color: white;
+        background-color: #79ADDC;
+        text-align: center;
+        padding: 15px 40px;
+        border-radius: 38px;
+        text-decoration: none;
+        // display: block;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+    }
+}
