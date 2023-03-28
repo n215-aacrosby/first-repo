@@ -1890,6 +1890,11 @@ footer .footerWrapper .icons i {
 }
 
 .specialOffersHeader {
+  max-width: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0 auto;
   margin-top: 65px;
   margin-bottom: 45px;
 }
@@ -1902,28 +1907,60 @@ footer .footerWrapper .icons i {
 .specialOffersHeader h1 span {
   border-bottom: 2px solid black;
 }
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1050px) {
   .specialOffersHeader {
-    padding: 20px;
+    padding: 0px 20px;
   }
 }
 
 .offerWrapper {
+  max-width: 980px;
   display: flex;
+  margin: 0 auto;
   margin-bottom: 60px;
 }
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1050px) {
   .offerWrapper {
-    padding: 20px;
+    padding: 0px 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .offerWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.offerWrapper .offerImage {
+  width: 200px;
+  height: 300px;
+}
+@media (max-width: 600px) {
+  .offerWrapper .offerImage {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
 .offerWrapper .offerImage img {
-  max-width: 199px;
-  height: 287px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+  .offerWrapper .offerImage img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 .offerWrapper .offerInfo {
   max-width: 335px;
+  margin: 0 auto;
   margin-left: 20px;
+}
+@media (max-width: 600px) {
+  .offerWrapper .offerInfo {
+    max-width: 540px;
+    margin-left: 0px;
+  }
 }
 .offerWrapper .offerInfo h1 {
   font-size: 30px;
@@ -1954,6 +1991,15 @@ footer .footerWrapper .icons i {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: normal;
 }
+@media (max-width: 600px) {
+  .offerWrapper .offerInfo a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 200px;
+  }
+}
 
 .blogContainer {
   max-width: 980px;
@@ -1962,12 +2008,17 @@ footer .footerWrapper .icons i {
 .blogContainer h1 {
   font-size: 30px;
   font-family: "proxima-nova-extra-condensed", sans-serif;
-  font-weight: 100;
-  font-style: italic;
+  font-weight: 400;
   border-bottom: 1px solid black;
   width: 4.5%;
+  letter-spacing: 8px;
   margin-top: 64.5px;
   margin-bottom: 41px;
+}
+@media (max-width: 1050px) {
+  .blogContainer h1 {
+    margin-left: 20px;
+  }
 }
 .blogContainer .blogEntry {
   display: flex;
@@ -1986,15 +2037,34 @@ footer .footerWrapper .icons i {
   flex-direction: column;
   margin-right: 20px;
 }
+@media (max-width: 1050px) {
+  .blogContainer .blogEntry h2 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+}
 .blogContainer .blogEntry h2 span {
   font-size: 12px;
   font-weight: 100;
 }
+.blogContainer .blogEntry .blogContent {
+  width: 980px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0 auto;
+}
 .blogContainer .blogEntry .blogContent img {
-  width: 900px;
+  width: 100%;
   height: 259px;
   margin-bottom: 20px;
   object-fit: cover;
+}
+@media (max-width: 1050px) {
+  .blogContainer .blogEntry .blogContent img {
+    padding: 0px 20px;
+  }
 }
 .blogContainer .blogEntry .blogContent h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -2002,6 +2072,11 @@ footer .footerWrapper .icons i {
   color: black;
   margin-bottom: 11px;
   font-weight: 100;
+}
+@media (max-width: 1050px) {
+  .blogContainer .blogEntry .blogContent h3 {
+    padding: 0px 20px;
+  }
 }
 .blogContainer .blogEntry .blogContent p {
   max-width: 380px;
@@ -2011,18 +2086,28 @@ footer .footerWrapper .icons i {
   margin-bottom: 100px;
   font-weight: 100;
 }
+@media (max-width: 1050px) {
+  .blogContainer .blogEntry .blogContent p {
+    padding: 0px 20px;
+  }
+}
 
 .contactContainer {
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
 }
 .contactContainer h1 {
   font-size: 30px;
   font-family: "proxima-nova-extra-condensed", sans-serif;
-  font-style: italic;
-  font-weight: 100;
+  font-weight: 400;
+  letter-spacing: 8px;
   margin-bottom: 60px;
   margin-top: 64.5px;
+}
+@media (max-width: 1050px) {
+  .contactContainer h1 {
+    padding: 0 20px;
+  }
 }
 .contactContainer h1 span {
   border-bottom: 1px solid black;
@@ -2031,10 +2116,22 @@ footer .footerWrapper .icons i {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1050px) {
+  .contactContainer .contactContent {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
 .contactContainer .contactContent .contentMap img {
-  max-width: 400px;
+  width: 400px;
   height: 442px;
   margin-bottom: 34px;
+  object-fit: cover;
+}
+@media (max-width: 1050px) {
+  .contactContainer .contactContent .contentMap img {
+    width: 100%;
+  }
 }
 .contactContainer .contactContent .contentMap p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -2042,6 +2139,14 @@ footer .footerWrapper .icons i {
   font-size: 18px;
   margin-bottom: 100px;
   line-height: 30px;
+}
+@media (max-width: 1050px) {
+  .contactContainer .contactContent .contentMap p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
 .contactContainer .contactContent .contactForm {
   display: flex;
@@ -2055,6 +2160,11 @@ footer .footerWrapper .icons i {
   border: none;
   padding: 20px;
   margin-bottom: 21px;
+}
+@media (max-width: 1050px) {
+  .contactContainer .contactContent .contactForm input {
+    width: 100%;
+  }
 }
 .contactContainer .contactContent .contactForm .messageInput {
   height: 199px;
@@ -2070,6 +2180,15 @@ footer .footerWrapper .icons i {
   font-size: 16px;
   text-align: center;
   border: none;
+}
+@media (max-width: 1050px) {
+  .contactContainer .contactContent .contactForm button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

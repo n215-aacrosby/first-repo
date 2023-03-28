@@ -1,4 +1,9 @@
 .specialOffersHeader{
+    max-width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 auto;
     margin-top: 65px;
     margin-bottom: 45px;
 
@@ -12,30 +17,63 @@
             border-bottom: 2px solid black;
         }
     }
-    @media only screen and (max-width: 1330px){
-        padding: 20px;
+    @media only screen and (max-width: 1050px){
+        padding: 0px 20px;
     }
 }
 
 
 
 .offerWrapper{
+    max-width: 980px;
     display: flex;
+    margin: 0 auto;
     margin-bottom: 60px;
-    @media only screen and (max-width: 1330px){
-        padding: 20px;
+
+    @media only screen and (max-width: 1050px){
+        padding: 0px 20px;
+    }
+
+    @media only screen and (max-width: 600px){
+        flex-direction: column;
+        align-items: center;
     }
 
     .offerImage{
+        // max-width: 980px;
+        width: 200px;
+        height: 300px;
+        
+
+        @media (max-width: 600px){
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+
         img{
-            max-width: 199px;
-            height: 287px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+            @media only screen and (max-width: 600px){
+                width: 100%;
+                // height: 400px;
+                margin-bottom: 50px;
+                // padding: 0px 20px;
+            }
         }
     }
 
 .offerInfo{
     max-width: 335px;
+    margin: 0 auto;
     margin-left: 20px;
+
+    @media (max-width: 600px){
+        max-width: 540px;
+        margin-left: 0px;
+    }
 
     h1{
         font-size: 30px;
@@ -70,6 +108,14 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-style: normal;
         
+        @media (max-width: 600px){
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            width: 200px;
+
+        }
     }
 }
 }
