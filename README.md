@@ -6,24 +6,23 @@ This is a test organization repo for my N215 class
 
 This homework assignment will:
 
-- Teach you how to make your site responsive
-- Teach you how to deal with images next to text.
-- Use media queries
-- Use percentages
+- Teach you how to add jQuery to your page
+- Teach you how to add variables to your JS file
+- How to use variables
+- Write a function
+- Interact with HTML elements with jQuery
 
 ## Task
 
-For this homework assignment, you will be making the special offer, blog, and the contact us page from the Travel-fly prototype Download Travel-fly prototypeand making it responsive.
+For this homework assignment, you will:
 
-- You must create a project named homework-seven.
-- You must build off of the previous assignment.
-- You must fix any issues with the previous assignment, especially if it doesn't look like the prototype.
-- Your pages must look like the prototype. Your text must look good.
-- All of these pages are similar to the ones we have done earlier in the site.
-- Your page must be responsive.
-- You can align the elements as you wish but they must look good and not touch the sides of the browser.
-- Upload your project to Github and add your Web4 link to the README file.
+- You must create a project named homework-eight.
+- Create a navigation bar that has four links
+- Add content to the page when you click on a link by using jQuery
+- Use only one page and load all the content onto that page
+- All pages must have full content. Images and text on every page and professionally styled.
+- Upload your project to Github and Web4 and add your Web4 link to the README file.
 
-## Homework 7 Web 4 URL
+## Homework 8 Web 4 URL
 
-https://in-info-web4.informatics.iupui.edu/~aacrosby/N215/homework-seven/
+https://in-info-web4.informatics.iupui.edu/~aacrosby/N215/homework-eight/
