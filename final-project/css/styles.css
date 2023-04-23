@@ -1,0 +1,2194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  padding: 0.5px;
+  max-width: 980px;
+  text-align: center;
+  margin: 0 auto;
+  height: 92px;
+}
+nav ul:hover li {
+  display: block;
+  position: relative;
+}
+nav ul {
+  display: none;
+  z-index: 999;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav ul li:hover a {
+  background-color: #70a1cb;
+  border-left: 3px solid #1e3e5b;
+}
+nav ul i {
+  color: black;
+  font-size: 30px;
+}
+@media only screen and (max-width: 1000px) {
+  nav ul i {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  nav ul {
+    display: block;
+  }
+}
+nav ul li {
+  list-style: none;
+  display: none;
+  position: relative;
+  top: 128.75px;
+}
+nav ul li a {
+  display: block;
+  padding: 20px 40px;
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+  background-color: #79ADDC;
+  color: white;
+}
+@media only screen and (max-width: 720px) {
+  nav {
+    width: 100%;
+  }
+}
+nav .travelFly {
+  margin-right: 390px;
+  width: 70px;
+  height: 36px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media only screen and (max-width: 1050px) {
+  nav .travelFly {
+    margin-right: 155px;
+    margin-left: 10px;
+    display: block;
+  }
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media only screen and (max-width: 1050px) {
+  nav a {
+    display: none;
+  }
+}
+nav h2 {
+  margin: 18px 19.5px 16px 19.5px;
+  font-weight: 100;
+  color: #79ADDC;
+  font-size: 30px;
+}
+@media only screen and (max-width: 1050px) {
+  nav h2 {
+    display: none;
+  }
+}
+
+.navigation {
+  max-width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.navigation nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+  padding: 0.5px;
+  max-width: 980px;
+  text-align: center;
+  margin: 0 auto;
+  height: 92px;
+}
+.navigation nav ul:hover li {
+  display: block;
+  position: relative;
+}
+.navigation nav ul {
+  display: none;
+  z-index: 999;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navigation nav ul li:hover a {
+  background-color: #70a1cb;
+}
+.navigation nav ul i {
+  color: white;
+  font-size: 30px;
+}
+@media only screen and (max-width: 980px) {
+  .navigation nav ul i {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .navigation nav ul {
+    display: block;
+  }
+}
+.navigation nav ul li {
+  list-style: none;
+  display: none;
+  position: relative;
+  top: 128.75px;
+}
+.navigation nav ul li a {
+  display: block;
+  padding: 20px 40px;
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+  background-color: #79ADDC;
+}
+@media only screen and (max-width: 720px) {
+  .navigation nav {
+    width: 100%;
+  }
+}
+.navigation nav .travelFly {
+  margin-right: 390px;
+  height: 36px;
+  padding: 0px 0px 0px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media only screen and (max-width: 1000px) {
+  .navigation nav .travelFly {
+    margin-right: 155px;
+    margin-left: 10px;
+    display: block;
+  }
+}
+.navigation nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media only screen and (max-width: 1000px) {
+  .navigation nav a {
+    display: none;
+  }
+}
+.navigation nav h2 {
+  margin: 18px 19.5px 16px 19.5px;
+  font-weight: 100;
+  color: #79ADDC;
+  font-size: 30px;
+}
+@media only screen and (max-width: 1000px) {
+  .navigation nav h2 {
+    display: none;
+  }
+}
+.navigation .heroCaption {
+  text-align: center;
+}
+.navigation .heroCaption h1 {
+  margin-top: 58px;
+  color: white;
+  font-size: 60px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-style: italic;
+}
+.navigation .heroCaption p {
+  color: white;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  padding: 0px 10px;
+}
+.navigation .heroCaption .readMore {
+  margin-top: 50px;
+}
+.navigation .heroCaption .readMore a {
+  background-color: #79ADDC;
+  padding: 14px 22px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.packageOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  text-align: center;
+  max-width: 818px;
+  margin: 0 auto;
+  margin-top: -43px;
+}
+@media only screen and (max-width: 868px) {
+  .packageOptions {
+    flex-direction: column;
+  }
+}
+.packageOptions h1 {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.packageOptions h2 {
+  font-size: 30px;
+  color: white;
+  margin-top: -24px;
+  margin-bottom: 58px;
+  font-weight: 100;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-style: italic;
+}
+.packageOptions a {
+  color: white;
+  background-color: #79ADDC;
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 38px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+}
+.packageOptions .isrealPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 868px) {
+  .packageOptions .isrealPackage {
+    margin-bottom: 20px;
+    width: 95%;
+  }
+}
+.packageOptions .usPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 868px) {
+  .packageOptions .usPackage {
+    margin-bottom: 20px;
+    width: 95%;
+  }
+}
+.packageOptions .austrailiaPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 868px) {
+  .packageOptions .austrailiaPackage {
+    width: 95%;
+  }
+}
+
+.bookingForm {
+  max-width: 818px;
+  margin: 0 auto;
+}
+.bookingForm p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+.bookingForm input {
+  height: 58px;
+  border: 1px solid #79ADDC;
+  padding: 5px;
+}
+.bookingForm button {
+  width: 813px;
+  height: 60px;
+  border-radius: 38px;
+  background-color: #79ADDC;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm button {
+    width: 80%;
+  }
+}
+.bookingForm h1 {
+  font-size: 60px;
+  margin: 50px 0px 32px 0px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-style: italic;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm h1 {
+    margin-left: 21px;
+  }
+}
+.bookingForm .inputWrapperOne {
+  display: flex;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperOne {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: block;
+  }
+}
+.bookingForm .inputWrapperOne .inputOne {
+  margin: 0 auto;
+}
+.bookingForm .inputWrapperOne .inputOne .shortInput {
+  width: 344px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperOne .inputOne .shortInput {
+    width: 80%;
+    margin-left: 21px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+.bookingForm .inputWrapperOne .inputTwo {
+  margin: 0 auto;
+  display: block;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bookingForm .inputWrapperOne .inputTwo .longInput {
+  width: 453px;
+  margin-bottom: 20px;
+  margin-left: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperOne .inputTwo .longInput {
+    margin-left: 21px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+  }
+}
+.bookingForm .inputWrapperTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperTwo {
+    width: 80%;
+    margin-left: 21px;
+    margin: 0 auto;
+  }
+}
+.bookingForm .inputWrapperTwo input {
+  width: 698px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperTwo input {
+    width: 80%;
+  }
+}
+.bookingForm .inputWrapperThree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperThree {
+    width: 360px;
+    margin-left: 21px;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+.bookingForm .inputWrapperThree input {
+  width: 698px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperThree input {
+    width: 80%;
+  }
+}
+.bookingForm .inputWrapperFour {
+  max-width: 818px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperFour {
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: block;
+  }
+}
+.bookingForm .inputWrapperFour .insideWrapper {
+  max-width: 698px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bookingForm .inputWrapperFour .insideWrapper .inputIcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 80px;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperFour .insideWrapper .inputIcon {
+    margin-right: 10px;
+  }
+}
+.bookingForm .inputWrapperFour .insideWrapper .inputIcon p {
+  margin-right: 70.25px;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperFour .insideWrapper .inputIcon p {
+    margin-right: 10px;
+  }
+}
+.bookingForm .inputWrapperFour .insideWrapper .inputIcon .actualTriangle {
+  width: 0;
+  height: 0;
+  margin: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 12px solid #000000;
+  position: absolute;
+  transform: translate(90px, -8px);
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperFour .insideWrapper .inputIcon .actualTriangle {
+    margin: 0;
+    transform: translate(69px, -8px);
+    transition: 0.5s;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .bookingForm .inputWrapperFour .insideWrapper .inputIcon .actualTriangle {
+    margin: 0;
+    transform: translate(53px, -8px);
+    transition: 0.5s;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .bookingForm .inputWrapperFour .insideWrapper .inputIcon .actualTriangle {
+    margin: 0;
+    transform: translate(43px, -8px);
+    transition: 0.5s;
+  }
+}
+.bookingForm .inputWrapperFour .insideWrapper input {
+  width: 103px;
+  margin-bottom: 20px;
+  z-index: -1;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .inputWrapperFour .insideWrapper input {
+    width: 80%;
+  }
+}
+.bookingForm .messageInputWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bookingForm .messageInputWrapper textarea {
+  width: 818px;
+  height: 192px;
+  margin-bottom: 37px;
+  border: 1px solid #79ADDC;
+  padding: 5px;
+  resize: none;
+}
+@media only screen and (max-width: 868px) {
+  .bookingForm .messageInputWrapper textarea {
+    width: 80%;
+  }
+}
+
+footer {
+  max-width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+}
+footer .footerWrapper {
+  max-width: 900px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 818px) {
+  footer .footerWrapper {
+    max-width: 818px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  footer .footerWrapper .travelFly img {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  footer .footerWrapper .travelFly {
+    margin-left: 21px;
+  }
+}
+footer .footerWrapper .copyright {
+  color: #ffffff;
+  font-size: 12px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+@media only screen and (max-width: 500px) {
+  footer .footerWrapper .copyright {
+    font-size: 8px;
+    margin: auto -70px 10px;
+  }
+}
+footer .footerWrapper .icons {
+  color: #ffffff;
+}
+footer .footerWrapper .icons i {
+  margin-left: 22px;
+  font-size: 22px;
+}
+@media only screen and (max-width: 500px) {
+  footer .footerWrapper .icons i {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  footer .footerWrapper .icons {
+    margin-right: 21px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  footer .footerWrapper .icons {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
+}
+
+.aboutWrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+@media only screen and (max-width: 1050px) {
+  .aboutWrapper {
+    padding: 0px 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aboutWrapper {
+    margin: 150px 0 200px 0;
+  }
+}
+.aboutWrapper h1 {
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+.aboutWrapper p {
+  max-width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.clientQuotes {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 107px;
+  margin-bottom: 179px;
+}
+@media only screen and (max-width: 1050px) {
+  .clientQuotes {
+    padding: 0px 20px;
+    margin-bottom: 100px;
+  }
+}
+.clientQuotes h2 {
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  .clientQuotes h2 {
+    margin-bottom: 40px;
+  }
+}
+.clientQuotes .clients {
+  display: flex;
+  margin-top: 36px;
+}
+@media only screen and (max-width: 600px) {
+  .clientQuotes .clients {
+    width: 90%;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 55px;
+  }
+}
+.clientQuotes .clients img {
+  margin: 0;
+  max-width: 260px;
+  height: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .clientQuotes .clients img {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
+.clientQuotes .clients p {
+  max-width: 385px;
+  text-align: left;
+  padding: 0px 21px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .clientQuotes .clients p {
+    margin: 0 auto;
+    margin-top: 35px;
+    max-width: 95%;
+  }
+}
+.clientQuotes .clients h3 {
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #79addc;
+  letter-spacing: 2px;
+  float: right;
+  margin-top: 27px;
+}
+
+.toursBanner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tours-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  height: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 1200px) {
+  .toursBanner {
+    width: 90%;
+  }
+}
+.toursBanner h1 {
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+.tourContainer {
+  overflow: hidden;
+  text-align: center;
+  max-width: 818px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer {
+    margin-top: 55px;
+  }
+}
+.tourContainer .tourRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 55px;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+}
+.tourContainer .tourRow h1 {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 40px;
+  white-space: nowrap;
+}
+.tourContainer .tourRow h2 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 58px;
+  font-weight: 100;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-style: italic;
+}
+.tourContainer .tourRow a {
+  color: white;
+  background-color: #79ADDC;
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 38px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+}
+.tourContainer .tourRow .isrealPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow .isrealPackage {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+.tourContainer .tourRow .usaPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow .usaPackage {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+.tourContainer .tourRow .australiaPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow .australiaPackage {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+.tourContainer .tourRow .newZealandPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow .newZealandPackage {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+.tourContainer .tourRow .francePackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow .francePackage {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+.tourContainer .tourRow .egyptPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow .egyptPackage {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+.tourContainer .tourRow .japanPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow .japanPackage {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+.tourContainer .tourRow .canadaPackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow .canadaPackage {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+.tourContainer .tourRow .uaePackage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+  width: 236px;
+  height: 306px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1200px) {
+  .tourContainer .tourRow .uaePackage {
+    margin-bottom: 20px;
+    width: 90%;
+  }
+}
+
+.tourPackageBannerOne {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerOne {
+    width: 95%;
+    margin-bottom: 60px;
+  }
+}
+.tourPackageBannerOne h1 {
+  font-size: 80px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerOne h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerOne h1 {
+    font-size: 40px;
+  }
+}
+.tourPackageBannerOne h2 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-right: 30px;
+  text-align: right;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerOne h2 {
+    margin-top: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerOne h2 {
+    margin-top: 310px;
+  }
+}
+
+.tourPackageBannerTwo {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerTwo {
+    width: 95%;
+    margin-bottom: 60px;
+  }
+}
+.tourPackageBannerTwo h1 {
+  font-size: 80px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerTwo h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerTwo h1 {
+    font-size: 40px;
+  }
+}
+.tourPackageBannerTwo h2 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-right: 30px;
+  text-align: right;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerTwo h2 {
+    margin-top: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerTwo h2 {
+    margin-top: 310px;
+  }
+}
+
+.tourPackageBannerThree {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerThree {
+    width: 95%;
+    margin-bottom: 60px;
+  }
+}
+.tourPackageBannerThree h1 {
+  font-size: 80px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerThree h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerThree h1 {
+    font-size: 40px;
+  }
+}
+.tourPackageBannerThree h2 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-right: 30px;
+  text-align: right;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerThree h2 {
+    margin-top: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerThree h2 {
+    margin-top: 310px;
+  }
+}
+
+.tourPackageBannerFour {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerFour {
+    width: 95%;
+    margin-bottom: 60px;
+  }
+}
+.tourPackageBannerFour h1 {
+  font-size: 80px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerFour h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerFour h1 {
+    font-size: 40px;
+  }
+}
+.tourPackageBannerFour h2 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-right: 30px;
+  text-align: right;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerFour h2 {
+    margin-top: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerFour h2 {
+    margin-top: 310px;
+  }
+}
+
+.tourPackageBannerFive {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerFive {
+    width: 95%;
+    margin-bottom: 60px;
+  }
+}
+.tourPackageBannerFive h1 {
+  font-size: 80px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerFive h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerFive h1 {
+    font-size: 40px;
+  }
+}
+.tourPackageBannerFive h2 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-right: 30px;
+  text-align: right;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerFive h2 {
+    margin-top: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerFive h2 {
+    margin-top: 310px;
+  }
+}
+
+.tourPackageBannerSix {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerSix {
+    width: 95%;
+    margin-bottom: 60px;
+  }
+}
+.tourPackageBannerSix h1 {
+  font-size: 80px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerSix h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerSix h1 {
+    font-size: 40px;
+  }
+}
+.tourPackageBannerSix h2 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-right: 30px;
+  text-align: right;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerSix h2 {
+    margin-top: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerSix h2 {
+    margin-top: 310px;
+  }
+}
+
+.tourPackageBannerSeven {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerSeven {
+    width: 95%;
+    margin-bottom: 60px;
+  }
+}
+.tourPackageBannerSeven h1 {
+  font-size: 80px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerSeven h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerSeven h1 {
+    font-size: 40px;
+  }
+}
+.tourPackageBannerSeven h2 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-right: 30px;
+  text-align: right;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerSeven h2 {
+    margin-top: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerSeven h2 {
+    margin-top: 310px;
+  }
+}
+
+.tourPackageBannerEight {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerEight {
+    width: 95%;
+    margin-bottom: 60px;
+  }
+}
+.tourPackageBannerEight h1 {
+  font-size: 80px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerEight h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerEight h1 {
+    font-size: 40px;
+  }
+}
+.tourPackageBannerEight h2 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-right: 30px;
+  text-align: right;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerEight h2 {
+    margin-top: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerEight h2 {
+    margin-top: 310px;
+  }
+}
+
+.tourPackageBannerNine {
+  max-width: 980px;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+@media (max-width: 1025px) {
+  .tourPackageBannerNine {
+    width: 95%;
+    margin-bottom: 60px;
+  }
+}
+.tourPackageBannerNine h1 {
+  font-size: 80px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-left: 30px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerNine h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerNine h1 {
+    font-size: 40px;
+  }
+}
+.tourPackageBannerNine h2 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  color: white;
+  font-weight: 400;
+  margin-right: 30px;
+  text-align: right;
+  margin-top: 250px;
+}
+@media only screen and (max-width: 545px) {
+  .tourPackageBannerNine h2 {
+    margin-top: 280px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .tourPackageBannerNine h2 {
+    margin-top: 310px;
+  }
+}
+
+.photoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 29px;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer {
+    flex-direction: column;
+  }
+}
+.photoContainer .photoOne {
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoOne {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwo {
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwo {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoThree {
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoThree {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoFour {
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoFour {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoFive {
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoFive {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoSix {
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoSix {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoSeven {
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoSeven {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoEight {
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoEight {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoNine {
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoNine {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTen {
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTen {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoEleven {
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoEleven {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwelve {
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwelve {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoThirteen {
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoThirteen {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoFourteen {
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoFourteen {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoFifteen {
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoFifteen {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoSixteen {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoSixteen {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoSeventeen {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoSeventeen {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoEighteen {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoEighteen {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoNineteen {
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoNineteen {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwenty {
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwenty {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwentyOne {
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwentyOne {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwentyTwo {
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwentyTwo {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwentyThree {
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwentyThree {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwentyFour {
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwentyFour {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwentyFive {
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwentyFive {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwentySix {
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwentySix {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+.photoContainer .photoTwentySeven {
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+  width: 298px;
+  height: 347px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 1025px) {
+  .photoContainer .photoTwentySeven {
+    margin-bottom: 20px;
+    width: 95%;
+    height: 450px;
+  }
+}
+
+.dayContainer {
+  max-width: 980px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 89px;
+}
+@media only screen and (max-width: 1025px) {
+  .dayContainer {
+    padding: 20px;
+  }
+}
+.dayContainer h1 {
+  font-size: 60px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+.dayContainer h1 span {
+  border-bottom: 2px solid black;
+}
+.dayContainer p {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 39px;
+  font-weight: 400;
+}
+
+.bookNow {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+.bookNow a {
+  color: white;
+  background-color: #79ADDC;
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 38px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+}
+
+.specialOffersHeader {
+  max-width: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0 auto;
+  margin-top: 65px;
+  margin-bottom: 45px;
+}
+.specialOffersHeader h1 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+.specialOffersHeader h1 span {
+  border-bottom: 2px solid black;
+}
+@media only screen and (max-width: 1050px) {
+  .specialOffersHeader {
+    padding: 0px 20px;
+  }
+}
+
+.offerWrapper {
+  max-width: 980px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 1050px) {
+  .offerWrapper {
+    padding: 0px 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .offerWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.offerWrapper .offerImage {
+  width: 200px;
+  height: 300px;
+}
+@media (max-width: 600px) {
+  .offerWrapper .offerImage {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.offerWrapper .offerImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+  .offerWrapper .offerImage img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+.offerWrapper .offerInfo {
+  max-width: 335px;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+@media (max-width: 600px) {
+  .offerWrapper .offerInfo {
+    max-width: 540px;
+    margin-left: 0px;
+  }
+}
+.offerWrapper .offerInfo h1 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+.offerWrapper .offerInfo h1 span {
+  border-bottom: 2px solid black;
+}
+.offerWrapper .offerInfo p {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 29px;
+  margin-bottom: 52px;
+  font-weight: 100;
+  line-height: 1.62;
+}
+.offerWrapper .offerInfo a {
+  color: white;
+  background-color: #79ADDC;
+  text-align: center;
+  padding: 15px 40px;
+  border-radius: 38px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+}
+@media (max-width: 600px) {
+  .offerWrapper .offerInfo a {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 200px;
+  }
+}
+
+.blogContainer {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.blogContainer h1 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid black;
+  width: 4.5%;
+  letter-spacing: 8px;
+  margin-top: 64.5px;
+  margin-bottom: 41px;
+}
+@media (max-width: 1050px) {
+  .blogContainer h1 {
+    margin-left: 20px;
+  }
+}
+.blogContainer .blogEntry {
+  display: flex;
+  max-width: 980px;
+}
+.blogContainer .blogEntry h2 {
+  background-color: #79ADDC;
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 20px;
+}
+@media (max-width: 1050px) {
+  .blogContainer .blogEntry h2 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+}
+.blogContainer .blogEntry h2 span {
+  font-size: 12px;
+  font-weight: 100;
+}
+.blogContainer .blogEntry .blogContent {
+  width: 980px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0 auto;
+}
+.blogContainer .blogEntry .blogContent img {
+  width: 100%;
+  height: 259px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+@media (max-width: 1050px) {
+  .blogContainer .blogEntry .blogContent img {
+    padding: 0px 20px;
+  }
+}
+.blogContainer .blogEntry .blogContent h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: black;
+  margin-bottom: 11px;
+  font-weight: 100;
+}
+@media (max-width: 1050px) {
+  .blogContainer .blogEntry .blogContent h3 {
+    padding: 0px 20px;
+  }
+}
+.blogContainer .blogEntry .blogContent p {
+  max-width: 380px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  color: #79ADDC;
+  margin-bottom: 100px;
+  font-weight: 100;
+}
+@media (max-width: 1050px) {
+  .blogContainer .blogEntry .blogContent p {
+    padding: 0px 20px;
+  }
+}
+
+.contactContainer {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.contactContainer h1 {
+  font-size: 30px;
+  font-family: "proxima-nova-extra-condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 8px;
+  margin-bottom: 60px;
+  margin-top: 64.5px;
+}
+@media (max-width: 1050px) {
+  .contactContainer h1 {
+    padding: 0 20px;
+  }
+}
+.contactContainer h1 span {
+  border-bottom: 1px solid black;
+}
+.contactContainer .contactContent {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1050px) {
+  .contactContainer .contactContent {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+.contactContainer .contactContent .contentMap img {
+  width: 400px;
+  height: 442px;
+  margin-bottom: 34px;
+  object-fit: cover;
+}
+@media (max-width: 1050px) {
+  .contactContainer .contactContent .contentMap img {
+    width: 100%;
+  }
+}
+.contactContainer .contactContent .contentMap p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  margin-bottom: 100px;
+  line-height: 30px;
+}
+@media (max-width: 1050px) {
+  .contactContainer .contactContent .contentMap p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+.contactContainer .contactContent .contactForm {
+  display: flex;
+  flex-direction: column;
+}
+.contactContainer .contactContent .contactForm input {
+  width: 529px;
+  height: 60px;
+  background-color: #F5F5F5;
+  color: black;
+  border: none;
+  padding: 20px;
+  margin-bottom: 21px;
+}
+@media (max-width: 1050px) {
+  .contactContainer .contactContent .contactForm input {
+    width: 100%;
+  }
+}
+.contactContainer .contactContent .contactForm .messageInput {
+  height: 199px;
+  text-align: justify;
+}
+.contactContainer .contactContent .contactForm button {
+  width: 167px;
+  height: 60px;
+  background-color: #79ADDC;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+}
+@media (max-width: 1050px) {
+  .contactContainer .contactContent .contactForm button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
