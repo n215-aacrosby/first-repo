@@ -18,104 +18,37 @@
   <body>
     <div class="navigation">
       <nav>
-        <a href="index.html" class="travelFly"
+        <a href="#home" class="travelFly"
           ><img src="images/logo/logo-white.png" alt=""
         /></a>
-        <a href="index.html">home</a>
+        <a href="#home">home</a>
         <h2>|</h2>
-        <a href="about.html">about</a>
+        <a href="#about">about</a>
         <h2>|</h2>
-        <a href="tours.html">tours</a>
+        <a href="#tours">tours</a>
         <h2>|</h2>
-        <a href="specialOffers.html">special offers</a>
+        <a href="#specialOffers">special offers</a>
         <h2>|</h2>
-        <a href="blogPage.html">blog</a>
+        <a href="#blog">blog</a>
         <h2>|</h2>
-        <a href="contact.html" class="lastLink">contact</a>
+        <a href="#contact" class="lastLink">contact</a>
         <ul>
           <i class="fa-solid fa-bars"></i>
-          <li><a href="index.html">home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="tours.html">tours</a></li>
-          <li><a href="specialOffers.html">special offers</a></li>
-          <li><a href="blogPage.html">blog</a></li>
-          <li><a href="contact.html">contact</a></li>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#tours">tours</a></li>
+          <li><a href="#specialOffers">special offers</a></li>
+          <li><a href="#blog">blog</a></li>
+          <li><a href="#contact">contact</a></li>
         </ul>
       </nav>
-      <div class="heroCaption">
-        <h1>travel-fly</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
-          Dolorum perferendis provident commodi. Iusto, dicta.
-        </p>
-        <div class="readMore"><a href="about.html">READ MORE</a></div>
-      </div>
     </div>
-    <div class="packageOptions">
-      <div class="isrealPackage">
-        <h1>isreal</h1>
-        <h2>from $1000</h2>
-        <a href="isrealTour.html">LEARN MORE</a>
-      </div>
-      <div class="usPackage">
-        <h1>usa</h1>
-        <h2>from $1500</h2>
-        <a href="usaTour.html">LEARN MORE</a>
-      </div>
-      <div class="austrailiaPackage">
-        <h1>austrailia</h1>
-        <h2>from $1800</h2>
-        <a href="ausTour.html">LEARN MORE</a>
-      </div>
-    </div>
-    <div class="bookingForm">
-      <h1>Booking form</h1>
-      <div class="inputWrapperOne">
-        <div class="inputOne">
-          <input type="text" class="shortInput" placeholder="name..." />
-          <input type="text" class="shortInput" placeholder="country..." />
-        </div>
-        <div class="inputTwo">
-          <input type="text" class="longInput" placeholder="email..." />
-          <input type="text" class="longInput" placeholder="hotel..." />
-        </div>
-      </div>
-      <div class="inputWrapperTwo">
-        <p>Check-in</p>
-        <input type="date" />
-      </div>
-      <div class="inputWrapperThree">
-        <p>Check-out</p>
-        <input type="date" />
-      </div>
-      <div class="inputWrapperFour">
-        <div class="insideWrapper">
-          <div class="inputIcon">
-            <p>Adults</p>
-            <div class="actualTriangle"></div>
-            <input type="text" />
-          </div>
-          <div class="inputIcon">
-            <p>Children</p>
-            <div class="actualTriangle"></div>
-            <input type="text" />
-          </div>
 
-          <div class="inputIcon">
-            <p>Rooms</p>
-            <div class="actualTriangle"></div>
-            <input type="text" />
-          </div>
-        </div>
-      </div>
-      <div class="messageInputWrapper">
-        <textarea placeholder="message..." cols="30" rows="10"></textarea>
-      </div>
-      <button>SUBMIT</button>
-    </div>
+    <div id="app"></div>
+
     <footer>
       <div class="footerWrapper">
-        <a href="index.html" class="travelFly"
+        <a href="#index" class="travelFly"
           ><img src="images/logo/logo-white.png" alt=""
         /></a>
         <p class="copyright">
@@ -128,5 +61,9 @@
         </div>
       </div>
     </footer>
+
+    <script src="lib/jquery-3.6.4.min.js"></script>
+    <script type="module" src="data/data.js"></script>
+    <script type="module" src="app/app.js"></script>
   </body>
 </html>
