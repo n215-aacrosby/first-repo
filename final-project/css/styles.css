@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
 }
 
-.navigation2 nav {
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,41 +28,41 @@ body {
   margin: 0 auto;
   height: 92px;
 }
-.navigation2 nav ul:hover li {
+nav ul:hover li {
   display: block;
   position: relative;
 }
-.navigation2 nav ul {
+nav ul {
   display: none;
   z-index: 999;
   align-items: center;
   justify-content: space-evenly;
 }
-.navigation2 nav ul li:hover a {
+nav ul li:hover a {
   background-color: #70a1cb;
   border-left: 3px solid #1e3e5b;
 }
-.navigation2 nav ul i {
+nav ul i {
   color: black;
   font-size: 30px;
 }
 @media only screen and (max-width: 1000px) {
-  .navigation2 nav ul i {
+  nav ul i {
     margin-right: 20px;
   }
 }
 @media only screen and (max-width: 1050px) {
-  .navigation2 nav ul {
+  nav ul {
     display: block;
   }
 }
-.navigation2 nav ul li {
+nav ul li {
   list-style: none;
   display: none;
   position: relative;
   top: 128.75px;
 }
-.navigation2 nav ul li a {
+nav ul li a {
   display: block;
   padding: 20px 40px;
   text-decoration: none;
@@ -72,41 +72,41 @@ body {
   color: white;
 }
 @media only screen and (max-width: 720px) {
-  .navigation2 nav {
+  nav {
     width: 100%;
   }
 }
-.navigation2 nav .travelFly {
+nav .travelFly {
   margin-right: 390px;
   width: 70px;
   height: 36px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 @media only screen and (max-width: 1050px) {
-  .navigation2 nav .travelFly {
+  nav .travelFly {
     margin-right: 155px;
     margin-left: 10px;
     display: block;
   }
 }
-.navigation2 nav a {
+nav a {
   text-decoration: none;
   color: black;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 @media only screen and (max-width: 1050px) {
-  .navigation2 nav a {
+  nav a {
     display: none;
   }
 }
-.navigation2 nav h2 {
+nav h2 {
   margin: 18px 19.5px 16px 19.5px;
   font-weight: 100;
   color: #79ADDC;
   font-size: 30px;
 }
 @media only screen and (max-width: 1050px) {
-  .navigation2 nav h2 {
+  nav h2 {
     display: none;
   }
 }
